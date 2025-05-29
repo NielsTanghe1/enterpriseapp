@@ -1,0 +1,15 @@
+body{
+    background: #DDD !important;
+}
+
+tr:nth-child(even) {background: #AAA}
+
+tr:nth-child(odd) {background: #FFF}
+
+.error{
+    color: #ff0000;
+}
+
+table{
+    width: 100%;
+}

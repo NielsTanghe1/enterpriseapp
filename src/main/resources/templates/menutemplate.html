@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<nav th:fragment="navbar">
+    <ul>
+        <li><a th:href="@{~/index}"> Home </a></li>
+        <li><a th:href="@{~/about}"> About</a></li>
+    </ul>
+</nav>
+
+
+<head th:fragment="header(name)">
+    <meta charset="UTF-8">
+    <title th:text="${name}"></title>
+    <link rel="stylesheet" th:href="@{housestyle.css}">
+</head>
+
+</html>
