@@ -1,5 +1,5 @@
 body{
-    background: #DDD !important;
+    background: rgba(186, 235, 250, 0.92) !important;
 }
 
 tr:nth-child(even) {background: #AAA}
